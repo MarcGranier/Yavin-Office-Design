@@ -45,3 +45,4 @@ function incrementStats() {
 // Event Listeners
 document.addEventListener('DOMContentLoaded', userScroll)
 document.addEventListener('DOMContentLoaded', incrementStats)
+document.querySelector('#to-top').addEventListener('click', scrollToTop)
